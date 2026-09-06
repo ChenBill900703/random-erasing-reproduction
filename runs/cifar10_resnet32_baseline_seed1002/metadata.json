@@ -1,0 +1,68 @@
+{
+  "config_path": "configs\\cifar10_resnet32_baseline.toml",
+  "config": {
+    "experiment": {
+      "name": "cifar10_resnet32_baseline",
+      "seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005
+      ]
+    },
+    "dataset": {
+      "name": "cifar10",
+      "root": "data",
+      "download": true
+    },
+    "model": {
+      "architecture": "resnet",
+      "depth": 32
+    },
+    "training": {
+      "epochs": 300,
+      "train_batch_size": 128,
+      "test_batch_size": 100,
+      "learning_rate": 0.1,
+      "milestones": [
+        150,
+        225
+      ],
+      "gamma": 0.1,
+      "momentum": 0.9,
+      "weight_decay": 0.0005,
+      "workers": 4
+    },
+    "augmentation": {
+      "random_crop": true,
+      "crop_size": 32,
+      "padding": 4,
+      "horizontal_flip": true
+    },
+    "erasing": {
+      "mode": "off",
+      "probability": 0.0,
+      "min_area": 0.02,
+      "max_area": 0.4,
+      "min_aspect": 0.3,
+      "trials": 100
+    },
+    "runtime": {
+      "deterministic": true,
+      "output_root": "runs"
+    }
+  },
+  "seed": 1002,
+  "smoke": false,
+  "environment": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "torch": "2.12.1+cu126",
+    "torchvision": "0.27.1+cu126",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3070 Ti",
+    "cuda_runtime": "12.6",
+    "cudnn": 91002
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "state": "completed",
+  "started_at": "2026-09-04T17:54:07.760471+00:00",
+  "updated_at": "2026-09-04T23:38:40.246761+00:00",
+  "current": null,
+  "completed": [
+    {
+      "experiment": "cifar100_resnet20_re_author_code",
+      "seed": 1001,
+      "finished_at": "2026-09-04T18:26:36.090731+00:00"
+    },
+    {
+      "experiment": "cifar100_resnet20_re_author_code",
+      "seed": 1002,
+      "finished_at": "2026-09-04T18:59:08.998075+00:00"
+    },
+    {
+      "experiment": "cifar100_resnet20_re_author_code",
+      "seed": 1003,
+      "finished_at": "2026-09-04T19:31:46.535585+00:00"
+    },
+    {
+      "experiment": "cifar100_resnet20_re_author_code",
+      "seed": 1004,
+      "finished_at": "2026-09-04T20:04:20.834162+00:00"
+    },
+    {
+      "experiment": "cifar100_resnet20_re_author_code",
+      "seed": 1005,
+      "finished_at": "2026-09-04T20:36:52.767938+00:00"
+    },
+    {
+      "experiment": "fashionmnist_resnet20_re_author_code",
+      "seed": 1001,
+      "finished_at": "2026-09-04T21:13:10.920190+00:00"
+    },
+    {
+      "experiment": "fashionmnist_resnet20_re_author_code",
+      "seed": 1002,
+      "finished_at": "2026-09-04T21:49:37.393525+00:00"
+    },
+    {
+      "experiment": "fashionmnist_resnet20_re_author_code",
+      "seed": 1003,
+      "finished_at": "2026-09-04T22:26:03.563081+00:00"
+    },
+    {
+      "experiment": "fashionmnist_resnet20_re_author_code",
+      "seed": 1004,
+      "finished_at": "2026-09-04T23:02:15.263226+00:00"
+    },
+    {
+      "experiment": "fashionmnist_resnet20_re_author_code",
+      "seed": 1005,
+      "finished_at": "2026-09-04T23:38:40.147154+00:00"
+    }
+  ],
+  "skipped": [],
+  "failed": null,
+  "finished_at": "2026-09-04T23:38:40.246761+00:00"
+}

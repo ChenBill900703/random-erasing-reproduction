@@ -1,0 +1,86 @@
+{
+  "state": "completed",
+  "started_at": "2026-09-02T14:34:07.110909+00:00",
+  "updated_at": "2026-09-02T22:41:09.220740+00:00",
+  "current": null,
+  "completed": [
+    {
+      "experiment": "cifar10_resnet20_baseline",
+      "seed": 1001,
+      "finished_at": "2026-09-02T15:06:52.089352+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_baseline",
+      "seed": 1002,
+      "finished_at": "2026-09-02T15:39:07.663367+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_baseline",
+      "seed": 1003,
+      "finished_at": "2026-09-02T16:11:23.116134+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_baseline",
+      "seed": 1004,
+      "finished_at": "2026-09-02T16:43:36.381243+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_baseline",
+      "seed": 1005,
+      "finished_at": "2026-09-02T17:15:54.489935+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_paper",
+      "seed": 1001,
+      "finished_at": "2026-09-02T17:48:25.500098+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_paper",
+      "seed": 1002,
+      "finished_at": "2026-09-02T18:20:55.287629+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_paper",
+      "seed": 1003,
+      "finished_at": "2026-09-02T18:53:30.722235+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_paper",
+      "seed": 1004,
+      "finished_at": "2026-09-02T19:25:57.149190+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_paper",
+      "seed": 1005,
+      "finished_at": "2026-09-02T19:58:22.559388+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_author_code",
+      "seed": 1001,
+      "finished_at": "2026-09-02T20:30:59.031000+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_author_code",
+      "seed": 1002,
+      "finished_at": "2026-09-02T21:03:31.006740+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_author_code",
+      "seed": 1003,
+      "finished_at": "2026-09-02T21:36:05.520799+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_author_code",
+      "seed": 1004,
+      "finished_at": "2026-09-02T22:08:35.282300+00:00"
+    },
+    {
+      "experiment": "cifar10_resnet20_re_author_code",
+      "seed": 1005,
+      "finished_at": "2026-09-02T22:41:09.123334+00:00"
+    }
+  ],
+  "skipped": [],
+  "failed": null,
+  "finished_at": "2026-09-02T22:41:09.220740+00:00"
+}

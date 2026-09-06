@@ -1,0 +1,43 @@
+[experiment]
+name = "fashionmnist_resnet20_re_author_code"
+seeds = [1001, 1002, 1003, 1004, 1005]
+
+[dataset]
+name = "fashionmnist"
+root = "data"
+download = true
+
+[model]
+architecture = "resnet"
+depth = 20
+
+[training]
+epochs = 300
+train_batch_size = 128
+test_batch_size = 100
+learning_rate = 0.1
+milestones = [150, 225]
+gamma = 0.1
+momentum = 0.9
+weight_decay = 0.0005
+workers = 4
+
+[augmentation]
+random_crop = true
+crop_size = 28
+padding = 4
+horizontal_flip = true
+
+[erasing]
+# [AUTHOR_CODE] The author's Fashion-MNIST script explicitly passes mean=[0.4914].
+mode = "author_constant"
+probability = 0.5
+min_area = 0.02
+max_area = 0.4
+min_aspect = 0.3
+trials = 100
+channel_values = [0.4914]
+
+[runtime]
+deterministic = true
+output_root = "runs"

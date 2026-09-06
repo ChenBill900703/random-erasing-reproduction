@@ -1,0 +1,79 @@
+dataset,model,condition,mean_test_error_percent,std_test_error_percent,runs,source
+CIFAR-10,ResNet-20,Baseline,7.21,0.17,5,Paper Table 1
+CIFAR-10,ResNet-20,Random Erasing,6.73,0.09,5,Paper Table 1
+CIFAR-10,ResNet-32,Baseline,6.41,0.06,5,Paper Table 1
+CIFAR-10,ResNet-32,Random Erasing,5.66,0.10,5,Paper Table 1
+CIFAR-10,ResNet-44,Baseline,5.53,0.08,5,Paper Table 1
+CIFAR-10,ResNet-44,Random Erasing,5.13,0.09,5,Paper Table 1
+CIFAR-10,ResNet-56,Baseline,5.31,0.07,5,Paper Table 1
+CIFAR-10,ResNet-56,Random Erasing,4.89,0.07,5,Paper Table 1
+CIFAR-10,ResNet-110,Baseline,5.10,0.07,5,Paper Table 1
+CIFAR-10,ResNet-110,Random Erasing,4.61,0.06,5,Paper Table 1
+CIFAR-10,ResNet-20-PreAct,Baseline,7.36,0.11,5,Paper Table 1
+CIFAR-10,ResNet-20-PreAct,Random Erasing,6.78,0.06,5,Paper Table 1
+CIFAR-10,ResNet-32-PreAct,Baseline,6.42,0.11,5,Paper Table 1
+CIFAR-10,ResNet-32-PreAct,Random Erasing,5.79,0.10,5,Paper Table 1
+CIFAR-10,ResNet-44-PreAct,Baseline,5.54,0.16,5,Paper Table 1
+CIFAR-10,ResNet-44-PreAct,Random Erasing,5.09,0.10,5,Paper Table 1
+CIFAR-10,ResNet-56-PreAct,Baseline,5.28,0.12,5,Paper Table 1
+CIFAR-10,ResNet-56-PreAct,Random Erasing,4.84,0.09,5,Paper Table 1
+CIFAR-10,ResNet-110-PreAct,Baseline,4.80,0.09,5,Paper Table 1
+CIFAR-10,ResNet-110-PreAct,Random Erasing,4.47,0.11,5,Paper Table 1
+CIFAR-10,ResNet-18-PreAct,Baseline,5.17,0.18,5,Paper Table 1
+CIFAR-10,ResNet-18-PreAct,Random Erasing,4.31,0.07,5,Paper Table 1
+CIFAR-10,WRN-28-10,Baseline,3.80,0.07,5,Paper Table 1
+CIFAR-10,WRN-28-10,Random Erasing,3.08,0.05,5,Paper Table 1
+CIFAR-10,ResNeXt-8-64,Baseline,3.54,0.04,5,Paper Table 1
+CIFAR-10,ResNeXt-8-64,Random Erasing,3.24,0.03,5,Paper Table 1
+CIFAR-100,ResNet-20,Baseline,30.84,0.19,5,Paper Table 1
+CIFAR-100,ResNet-20,Random Erasing,29.97,0.11,5,Paper Table 1
+CIFAR-100,ResNet-32,Baseline,28.50,0.37,5,Paper Table 1
+CIFAR-100,ResNet-32,Random Erasing,27.18,0.32,5,Paper Table 1
+CIFAR-100,ResNet-44,Baseline,25.27,0.21,5,Paper Table 1
+CIFAR-100,ResNet-44,Random Erasing,24.29,0.16,5,Paper Table 1
+CIFAR-100,ResNet-56,Baseline,24.82,0.27,5,Paper Table 1
+CIFAR-100,ResNet-56,Random Erasing,23.69,0.33,5,Paper Table 1
+CIFAR-100,ResNet-110,Baseline,23.73,0.37,5,Paper Table 1
+CIFAR-100,ResNet-110,Random Erasing,22.10,0.41,5,Paper Table 1
+CIFAR-100,ResNet-20-PreAct,Baseline,30.58,0.16,5,Paper Table 1
+CIFAR-100,ResNet-20-PreAct,Random Erasing,30.18,0.13,5,Paper Table 1
+CIFAR-100,ResNet-32-PreAct,Baseline,29.04,0.25,5,Paper Table 1
+CIFAR-100,ResNet-32-PreAct,Random Erasing,27.82,0.28,5,Paper Table 1
+CIFAR-100,ResNet-44-PreAct,Baseline,25.22,0.19,5,Paper Table 1
+CIFAR-100,ResNet-44-PreAct,Random Erasing,24.10,0.26,5,Paper Table 1
+CIFAR-100,ResNet-56-PreAct,Baseline,24.14,0.25,5,Paper Table 1
+CIFAR-100,ResNet-56-PreAct,Random Erasing,22.93,0.27,5,Paper Table 1
+CIFAR-100,ResNet-110-PreAct,Baseline,22.11,0.20,5,Paper Table 1
+CIFAR-100,ResNet-110-PreAct,Random Erasing,20.99,0.11,5,Paper Table 1
+CIFAR-100,ResNet-18-PreAct,Baseline,24.50,0.29,5,Paper Table 1
+CIFAR-100,ResNet-18-PreAct,Random Erasing,24.03,0.19,5,Paper Table 1
+CIFAR-100,WRN-28-10,Baseline,18.49,0.11,5,Paper Table 1
+CIFAR-100,WRN-28-10,Random Erasing,17.73,0.15,5,Paper Table 1
+CIFAR-100,ResNeXt-8-64,Baseline,19.27,0.30,5,Paper Table 1
+CIFAR-100,ResNeXt-8-64,Random Erasing,18.84,0.18,5,Paper Table 1
+Fashion-MNIST,ResNet-20,Baseline,4.39,0.08,5,Paper Table 1
+Fashion-MNIST,ResNet-20,Random Erasing,4.02,0.07,5,Paper Table 1
+Fashion-MNIST,ResNet-32,Baseline,4.16,0.13,5,Paper Table 1
+Fashion-MNIST,ResNet-32,Random Erasing,3.80,0.05,5,Paper Table 1
+Fashion-MNIST,ResNet-44,Baseline,4.41,0.09,5,Paper Table 1
+Fashion-MNIST,ResNet-44,Random Erasing,4.01,0.14,5,Paper Table 1
+Fashion-MNIST,ResNet-56,Baseline,4.39,0.10,5,Paper Table 1
+Fashion-MNIST,ResNet-56,Random Erasing,4.13,0.42,5,Paper Table 1
+Fashion-MNIST,ResNet-110,Baseline,4.40,0.10,5,Paper Table 1
+Fashion-MNIST,ResNet-110,Random Erasing,4.01,0.13,5,Paper Table 1
+Fashion-MNIST,ResNet-20-PreAct,Baseline,4.43,0.19,5,Paper Table 1
+Fashion-MNIST,ResNet-20-PreAct,Random Erasing,4.02,0.09,5,Paper Table 1
+Fashion-MNIST,ResNet-32-PreAct,Baseline,4.36,0.02,5,Paper Table 1
+Fashion-MNIST,ResNet-32-PreAct,Random Erasing,4.00,0.05,5,Paper Table 1
+Fashion-MNIST,ResNet-44-PreAct,Baseline,4.92,0.30,5,Paper Table 1
+Fashion-MNIST,ResNet-44-PreAct,Random Erasing,4.23,0.15,5,Paper Table 1
+Fashion-MNIST,ResNet-56-PreAct,Baseline,4.55,0.30,5,Paper Table 1
+Fashion-MNIST,ResNet-56-PreAct,Random Erasing,3.99,0.08,5,Paper Table 1
+Fashion-MNIST,ResNet-110-PreAct,Baseline,5.11,0.55,5,Paper Table 1
+Fashion-MNIST,ResNet-110-PreAct,Random Erasing,4.19,0.15,5,Paper Table 1
+Fashion-MNIST,ResNet-18-PreAct,Baseline,4.31,0.06,5,Paper Table 1
+Fashion-MNIST,ResNet-18-PreAct,Random Erasing,3.90,0.06,5,Paper Table 1
+Fashion-MNIST,WRN-28-10,Baseline,4.01,0.10,5,Paper Table 1
+Fashion-MNIST,WRN-28-10,Random Erasing,3.65,0.03,5,Paper Table 1
+Fashion-MNIST,ResNeXt-8-64,Baseline,4.02,0.05,5,Paper Table 1
+Fashion-MNIST,ResNeXt-8-64,Random Erasing,3.79,0.06,5,Paper Table 1

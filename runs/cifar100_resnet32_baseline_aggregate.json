@@ -1,0 +1,37 @@
+{
+  "experiment": "cifar100_resnet32_baseline",
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "smoke": false,
+  "is_paper_result": false,
+  "best_error_rate": {
+    "values": [
+      28.900000000000006,
+      29.689999999999998,
+      29.019999999999996,
+      28.36,
+      29.189999999999998
+    ],
+    "mean": 29.032,
+    "population_std": 0.43059958197843057,
+    "sample_std": 0.48142496819338204
+  },
+  "final_error_rate": {
+    "values": [
+      30.310000000000002,
+      30.629999999999995,
+      30.090000000000003,
+      29.480000000000004,
+      30.290000000000006
+    ],
+    "mean": 30.160000000000004,
+    "population_std": 0.38147083767962975,
+    "sample_std": 0.4264973622427201
+  },
+  "note": "New reproduction aggregate; paper does not state best-vs-final or std convention."
+}

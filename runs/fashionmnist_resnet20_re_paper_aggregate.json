@@ -1,0 +1,37 @@
+{
+  "experiment": "fashionmnist_resnet20_re_paper",
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "smoke": false,
+  "is_paper_result": false,
+  "best_error_rate": {
+    "values": [
+      4.599999999999994,
+      4.680000000000007,
+      4.5,
+      4.579999999999998,
+      4.569999999999993
+    ],
+    "mean": 4.5859999999999985,
+    "population_std": 0.057827329179206195,
+    "sample_std": 0.0646529195009811
+  },
+  "final_error_rate": {
+    "values": [
+      4.909999999999997,
+      4.859999999999999,
+      4.650000000000006,
+      4.829999999999998,
+      4.810000000000002
+    ],
+    "mean": 4.812,
+    "population_std": 0.08772684879784223,
+    "sample_std": 0.09808159868191046
+  },
+  "note": "New reproduction aggregate; paper does not state best-vs-final or std convention."
+}

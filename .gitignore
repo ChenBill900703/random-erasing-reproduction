@@ -1,0 +1,27 @@
+# Local environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+
+# Downloaded datasets and temporary work
+data/
+tmp/
+.codex-finalizer/
+
+# The upstream checkout is reproducible from the pinned commit documented in README.
+third_party/Random-Erasing/
+
+# The paper is linked from arXiv instead of redistributed here.
+1708.04896v2.pdf
+
+# Non-formal or interrupted runs
+runs/*_smoke/
+runs/_aborted*/
+runs/*.pid
+
+# Superseded presentation builds; keep only the final v3 files.
+output/pptx/random_erasing_reproduction_professor.pptx
+output/pptx/random_erasing_reproduction_professor_v2.pptx
+output/pdf/random_erasing_reproduction_professor.pdf

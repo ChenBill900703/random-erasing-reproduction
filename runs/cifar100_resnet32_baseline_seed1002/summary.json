@@ -1,0 +1,9 @@
+{
+  "best_accuracy": 70.31,
+  "best_error_rate": 29.689999999999998,
+  "final_accuracy": 69.37,
+  "final_error_rate": 30.629999999999995,
+  "elapsed_seconds": 2851.393406152725,
+  "is_paper_result": false,
+  "note": "New reproduction result; compare against paper target separately."
+}
